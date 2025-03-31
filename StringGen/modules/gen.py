@@ -29,7 +29,7 @@ from telethon.errors import (
 )
 from telethon.sessions import StringSession
 from telethon.tl.functions.channels import JoinChannelRequest
-from pyromod import ListenerTimeout
+from pyromod.listen import ListenerTimeout
 
 from config import SUPPORT_CHAT
 from StringGen import Anony
